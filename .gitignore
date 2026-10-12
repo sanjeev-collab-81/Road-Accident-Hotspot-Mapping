@@ -1,0 +1,31 @@
+# R environment
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user/
+
+# Generated output (HTML report is large and reproducible)
+accident_report.html
+
+# Data files (may contain sensitive real data in production)
+# Comment out the next two lines if you WANT to track generated CSVs
+# data/accidents.csv
+# data/accidents_clean.csv
+
+# Keep hotspots.csv in version control (small, useful for reference)
+!data/hotspots.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+*.Rproj
+
+# Temp / cache
+*~
+*.tmp
+*.log
+Rplots.pdf
